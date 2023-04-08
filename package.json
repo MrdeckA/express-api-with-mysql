@@ -1,5 +1,5 @@
 {
-  "name": "ags",
+  "name": "express-mysql-api",
   "version": "1.0.0",
   "description": "Site de vente de materiel immobilier",
   "main": "app.js",

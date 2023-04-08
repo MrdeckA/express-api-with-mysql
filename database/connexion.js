@@ -1,10 +1,9 @@
 const { Sequelize } = require('sequelize');
 
-const database = new Sequelize('ags', 'root', '', {
-    host: 'localhost',
+const database = new Sequelize(process.env.DB_NAME, process.env.DB_USERNAME, process.env.DB_PASSWORD, {
+    host: process.env.DB_HOST || 'localhost',
     dialect: 'mysql',
-    port: 3306,
-    path: 'database/database.sql'
+    port: process.env.DB_PORT || 3306,
 });
 
 
