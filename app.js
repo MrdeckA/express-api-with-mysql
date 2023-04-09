@@ -9,7 +9,7 @@ app.use(express.json());
 
 
 
-
+ 
 app.use(cors());
 app.use('/api/articles', articleRouter);
 app.use(express.static(path.join(__dirname, '/assets/images')));
