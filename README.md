@@ -1,6 +1,6 @@
-# Express.JS API with MySQL Databse Starter Kit
+# Express.JS API with MySQL Database Starter Kit
 
-# Express API Starter Kit with MySQL and Sequelize
+## Express.JS API Starter Kit with MySQL and Sequelize
 
 This is an open-source starter kit for building an Express API with a MySQL database using the Sequelize ORM. It implements CRUD methods for a resource named Articles and follows the MVC architecture.
 
